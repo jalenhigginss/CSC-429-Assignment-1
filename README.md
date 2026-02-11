@@ -33,3 +33,9 @@ I ran the DLS implementation with two different depth limits:
 **Path Quality**: DLS is not optimal if L > d.
 
 **Contrast with BFS/DFS**: DLS provides a controlled cutoff. Unlike BFS, it still does not guarantee the shortest path.
+
+
+### References
+* Lecture - Search (1).pdf
+* Lecture - Search (2).pdf
+* Lecture - Search (4).pdf
