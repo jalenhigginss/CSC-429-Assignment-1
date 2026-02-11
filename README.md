@@ -7,9 +7,9 @@ This repository contains the comparisons of the results in problems 1 and 2.
 ### Comparisons
 Compare the results and write your findings on the differences between BFS and DFS (e.g., traversal order, memory usage, path length):
 
-***Traversal Order**: BFS always expands the shallowest node in the frontier. DFS always expands the deepest node in the frontier.
-***Memory Usage**: BFS is O(b^d) (exponential), it requires more memory which in return being it's biggest problem. DFS O(bm) (linear) and requires less memory.
-***Path Length**: BFS is optimal if cost = 1 per step, so in the case for an unweighted graph or grid this would be useful. DFS is not optimal; it finds the leftmost solution regardless of depth or cost, it is less optimal than the BFS result.
+**Traversal Order**: BFS always expands the shallowest node in the frontier. DFS always expands the deepest node in the frontier.
+**Memory Usage**: BFS is O(b^d) (exponential), it requires more memory which in return being it's biggest problem. DFS O(bm) (linear) and requires less memory.
+**Path Length**: BFS is optimal if cost = 1 per step, so in the case for an unweighted graph or grid this would be useful. DFS is not optimal; it finds the leftmost solution regardless of depth or cost, it is less optimal than the BFS result.
 
 ---
 
